@@ -30,6 +30,9 @@ this will print the `readme.md` to terminal.
 
 **You have to have at the same path, where your `node_modules` are. While you are entering the `nman` command. I might improve this in the future.**
 
+## Preview
+
+![preview](https://raw.github.com/chilijung/nman/master/preview/preview.png)
 
 ## License
 
