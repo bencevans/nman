@@ -1,0 +1,29 @@
+{
+  "name": "nman",
+  "version": "0.0.0",
+  "description": "node man page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chilijung/nman.git"
+  },
+  "keywords": [
+    "node",
+    "man",
+    "page"
+  ],
+  "author": "chilijung",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chilijung/nman/issues"
+  },
+  "homepage": "https://github.com/chilijung/nman",
+  "dependencies": {
+    "commander": "^2.1.0",
+    "node-stage": "^0.1.2",
+    "colors": "^0.6.2"
+  }
+}
