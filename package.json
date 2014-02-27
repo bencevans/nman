@@ -10,6 +10,9 @@
     "type": "git",
     "url": "https://github.com/chilijung/nman.git"
   },
+  "bin": {
+    "nman": "./bin/nman"
+  },
   "keywords": [
     "node",
     "man",
