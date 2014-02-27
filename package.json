@@ -28,7 +28,7 @@
     "commander": "^2.1.0",
     "node-stage": "^0.1.2",
     "colors": "^0.6.2",
-    "consoul": "0.0.3",
+    "consoul": "git://github.com/chilijung/consoul.git",
     "async": "^0.2.10"
   }
 }
