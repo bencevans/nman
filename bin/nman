@@ -6,14 +6,14 @@ var nman = require('../');
 
 program
   .version('0.0.1')
-  .usage('[options] <npm module>')
+  .usage('[options] <a npm module>')
   .option('-l, --list', 'List all npm modules.');
 
 program.parse(process.argv);
 
 if (program.list) {
 	stage.process('Finding node_modules folder')
-	nman.list(__dirname);
+	nman.list();
 }else if(program.args) {
-	console.log('args')
+	nman.man(program.args[0])
 }
