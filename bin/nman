@@ -7,13 +7,18 @@ var nman = require('../');
 program
   .version('0.0.1')
   .usage('[options] <a npm module>')
+  .option('-g, --global', 'Consider global dependencies.')
   .option('-l, --list', 'List all npm modules.');
 
 program.parse(process.argv);
 
+var opts = {
+  globalModules: program.global
+}
+
 if (program.list) {
 	stage.process('Finding node_modules folder')
-	nman.list();
+	nman.list(opts);
 }else if(program.args) {
-	nman.man(program.args[0])
+	nman.man(program.args[0], opts)
 }
